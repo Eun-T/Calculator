@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  height: 100vh;
+  gap: 30px;
+}
+
+
+.calculate {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border-radius: 8px;
+}
+
+.number,.cal {
+  padding-block: 30px;
+  cursor: pointer;
+  border: 1px solid blue;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.box,.result {
+  border: 1px solid pink;
+  height: 30px;
+  padding-inline: 10px;
+}
